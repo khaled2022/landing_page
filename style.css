@@ -1,0 +1,377 @@
+*,*:after,*:before{
+	padding: 0;
+	margin: 0;
+	font-family: 'Montserrat',sans-serif;
+	-webkit-box-sizing: border-box;
+	-ms-box-sizing: border-box;
+	-o-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+/*--------- Start Header ---------*/
+.clearfix {
+	clear: both;
+}
+.container {
+	width: 1100px;
+	margin: auto;
+}
+p {
+	font-family: 'Releway',sans-serif;
+
+}
+section.header {
+height: 680px;
+background-image:url('img/header-bg.jpg');
+background-size: cover; 
+position: relative;
+}
+section.header .head {
+	padding-top: 25px;
+}
+section.header .head img {
+	float: left;
+}
+section.header .head nav {
+	float: right;
+}
+section.header .head nav ul li {
+	list-style: none;
+	display:inline-block;
+	padding-left: 10PX;
+}
+section.header .head nav ul li a {
+	text-decoration: none;
+	color: #fff;
+	text-decoration: none;
+	font-size: 20px;
+}
+section.header .header_content {
+	width:700px;
+	margin:auto;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+	text-align: center;
+}
+section.header .header_content h2 {
+	color: #fff;
+	font-size: 50px;
+	font-weight: bold;
+}
+section.header .header_content p {
+	font-size:20px;
+	color: #fff;
+	margin: 2% 0 2% 0;
+}
+
+section.header .header_content button {
+	width: 180px;
+	outline: none;
+	padding: 20px;
+	font-size: 15px;
+	border: none;
+	font-weight: bold;
+	border-radius:5px;
+	cursor: pointer;
+	margin-left: 3%;
+	text-transform: uppercase;
+	transition: all 0.4s  ease-in-out; 
+}
+section.header .header_content button:first-child  {
+	background: #fff;
+	color: #000;
+}
+section.header .header_content button:last-child {
+	background: #6bd2e9;
+	color: #fff;
+}
+section.header .header_content button:last-child:hover {
+	background-color: #0ddfe0;
+}
+section.header .header_footer {
+	width: 30px;
+	height: 53px;
+	position: absolute;
+	bottom: 10%;
+	left: 50%;
+	border: 2px solid #fff;
+	border-radius: 18px;
+}
+section.header .header_footer .scroll {
+	width: 5px;
+	height: 13px;
+	background-color: #fff;
+	margin: auto;
+	position: relative;
+	top: 4px;
+	animation: scrolling 1s ease-in-out infinite;
+}
+@keyframes scrolling {
+	0% {
+		opacity: 0;
+		top: 5px;
+	}
+	30% {
+		opacity: 1;
+		top: 10px;
+	}
+
+	100% {
+		opacity: 0;
+		top: 25px;
+	}
+}
+/*--------- End Header ---------*/
+
+/*--------- Start Be First Section ---------*/
+
+section.BeFirst {
+	height: 600px;
+	background-image: url('img/be-the-first-bg.jpg'); 
+	padding-top: 10%;
+	text-align: center;
+	background-size: cover;
+	background-attachment: fixed;
+	margin-bottom: 17%;
+}
+section.BeFirst .BeFirst_center h2 {
+	color: #fff;
+	font-weight: bold;
+	font-size: 40px;
+}
+section.BeFirst .BeFirst_center p {
+	color: #fff;
+	margin: 2% 0 2% 0;
+	font-size: 25px;
+}
+section.BeFirst .BeFirst_img {
+	text-align: center;
+}
+section.BeFirst .BeFirst_img img {
+	width: 400px;
+}
+/*--------- End Be First Section ---------*/
+
+/*--------- Start Feature Section ---------*/
+section.Feature {
+	padding-bottom: 20%;
+}
+section.Feature  .feature_feat {
+	width: 30%;
+	float: left;
+	margin-left: 5%;
+}
+section.Feature  .feature_feat:nth-of-type(1) {
+	margin-left: 0;
+}
+section.Feature  .feature_feat:nth-of-type(1) hr {
+	height: 5px;
+	background-color: #6d3f96;
+	border: 0;
+}
+section.Feature  .feature_feat:nth-of-type(2) hr {
+	height: 5px;
+	background-color: #fdc05d;
+	border: 0;
+}
+section.Feature  .feature_feat:nth-of-type(3) hr {
+	height: 5px;
+	background-color: #60abcd;
+	border: 0;
+}
+section.Feature  .feature_feat h2 {
+	font-size: 18px;
+	margin-top: 6%;
+	margin-bottom:5%;
+}
+section.Feature  .feature_feat p {
+	color: #929496;
+	line-height: 1.3;
+}
+/*--------- End Feature Section ---------*/
+
+/*--------- Start Pricing Section ---------*/
+section.pricing {
+	padding: 10% 0 10% 0;
+	background-color: #70cbce;
+	height: auto;
+	text-align: center;
+}
+section.pricing h2 {
+	color: #fff;
+	font-size: 45px;
+	margin-bottom: 2%;
+}
+section.pricing p {
+	font-size: 18px;
+	color: #fff;
+	margin-bottom: 3%;
+}
+section.pricing .pricing_flex {
+	display: flex;
+	width: 100%;
+	justify-content: center;
+}
+section.pricing .pricing_flex .flex_item {
+	width: 32%;
+}
+section.pricing .pricing_flex .flex_item:nth-of-type(1),
+section.pricing .pricing_flex .flex_item:nth-of-type(3) {
+	margin-top: 2%;
+}
+section.pricing .pricing_flex .flex_item ul {
+	list-style: none;
+	background-color: #fff;
+	border-top-left-radius: 10px;
+	border-top-right-radius: 10px;
+	transition: all 0.4s ease-in-out;
+}
+section.pricing .pricing_flex .flex_item ul:hover {
+	margin-top: -10px;
+}
+section.pricing .pricing_flex .flex_item ul:hover  li.doller{
+	background-color:#231f20;
+	transition: all 0.4s ease-in-out;
+}
+section.pricing .pricing_flex .flex_item ul li.price {
+	background-color: #1a1a1a;
+	color: #fff;
+	padding: 20px;
+	border-radius:10px 10px 0 0; 
+}
+section.pricing .pricing_flex .flex_item ul li.doller {
+	background-color: #1a1a1a;
+	color: #fff;
+	padding: 15px;
+	font-size: 30px;
+	font-weight: bold;
+}
+section.pricing .pricing_flex .flex_item ul li.doller small {
+	font-weight: normal;
+	color: #ccc;
+}
+
+section.pricing .pricing_flex .flex_item ul li.list {
+	padding: 20px;
+	border-bottom: 1px solid #E8EAEA;
+	font-weight: bold;
+}
+section.pricing .pricing_flex .flex_item ul li.flex_content {
+	color: #929496;
+	padding: 20px;
+	font-size: 13px;
+	font-weight: normal;
+}
+section.pricing .pricing_flex .flex_item ul li.btn {
+	padding: 15px;
+	color: #70cbce;
+	text-transform: uppercase;
+	font-weight: bold;
+}
+section.pricing .pricing_flex .flex_item ul li.btn:hover {
+	background-color:#f5f5f5;
+	cursor: pointer;
+}
+/*--------- End Pricing Section ---------*/
+
+/*--------- Start Invite Section ---------*/
+section.invite {
+	height: auto;
+	padding: 10% 0 10% 0;
+	background-color: #f2f2f2;
+	text-align: center;
+}
+section.invite img {
+	width: 6%;
+	height: 12%;	
+	margin-bottom: 2%;
+}
+section.invite h2 {
+	font-size: 40px;
+	margin-bottom: 2%;
+}
+section.invite p {
+	color: ;
+	margin-bottom: 2%;
+}
+section.invite input {
+	display: block;
+	margin: auto;
+	width: 30%;
+	height: 45px;
+	border: none;
+	padding: 10px;
+	outline: none;
+	margin-bottom: 2%;
+	border-radius: 5px;
+}
+section.invite input::-webkit-input-placeholder {
+	color: #aaa;
+}
+section.invite button {
+	width:250px;
+	height:50px; 
+	background-color: #70cbce;
+	padding: 10px;
+	border: none;
+	outline: none;
+	cursor: pointer;
+	border-radius: 3px;
+	color: #fff;
+	font-weight: bold;
+	text-transform: uppercase;
+}
+/*--------- End Invite Section ---------*/
+
+/*--------- Start Info Section ---------*/
+section.info {
+	padding-top: 10%;
+	padding-bottom: 10%;
+}
+section.info .info_desc {
+	width: 70%;
+	margin: auto;
+}
+section.info .info_desc .info_img {
+	width: 20%;	
+	float: left;
+}
+section.info .info_desc .info_information {
+	width: 80%;
+	float: left;
+}
+section.info .info_desc .info_information p {
+	color: #aaa;
+	padding: 3% 0 3% 0;
+}
+section.info .info_desc .info_information span {
+	color: #929496;
+	font-weight: bold;
+}
+section.info  .info_hr {
+	background-color: #f1f1f1;
+	border:none;
+	height: 2px;
+	margin-bottom: 3%;
+}
+/*--------- End Info Section ---------*/
+
+/*--------- Start Footer ---------*/
+footer {
+	padding: 5%;
+}
+footer div.left {
+	float: left;
+}
+footer div.left span {
+	padding-right: 10px;
+}
+footer div.right {
+	float: right;
+}
+footer div.right span {
+	color: #929496;
+}
+/*--------- End Footer ---------*/
